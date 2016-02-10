@@ -15,6 +15,7 @@
 		FC9270931C6B305C0024F9F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9270911C6B305C0024F9F4 /* LaunchScreen.storyboard */; };
 		FC92709E1C6B305C0024F9F4 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC92709D1C6B305C0024F9F4 /* __Tests.m */; };
 		FC9270A91C6B305C0024F9F4 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9270A81C6B305C0024F9F4 /* __UITests.m */; };
+		FC9270B81C6B31640024F9F4 /* PaipaiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9270B71C6B31640024F9F4 /* PaipaiCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FC9270A41C6B305C0024F9F4 /* 布局UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "布局UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9270A81C6B305C0024F9F4 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		FC9270AA1C6B305C0024F9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9270B61C6B31640024F9F4 /* PaipaiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaipaiCell.h; sourceTree = "<group>"; };
+		FC9270B71C6B31640024F9F4 /* PaipaiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaipaiCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				FC9270861C6B305C0024F9F4 /* AppDelegate.h */,
 				FC9270871C6B305C0024F9F4 /* AppDelegate.m */,
+				FC9270B61C6B31640024F9F4 /* PaipaiCell.h */,
+				FC9270B71C6B31640024F9F4 /* PaipaiCell.m */,
 				FC9270891C6B305C0024F9F4 /* ViewController.h */,
 				FC92708A1C6B305C0024F9F4 /* ViewController.m */,
 				FC92708C1C6B305C0024F9F4 /* Main.storyboard */,
@@ -273,6 +278,7 @@
 				FC92708B1C6B305C0024F9F4 /* ViewController.m in Sources */,
 				FC9270881C6B305C0024F9F4 /* AppDelegate.m in Sources */,
 				FC9270851C6B305C0024F9F4 /* main.m in Sources */,
+				FC9270B81C6B31640024F9F4 /* PaipaiCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
